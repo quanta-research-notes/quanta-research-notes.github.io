@@ -2,6 +2,21 @@
 
 Canonical public ledger for operational changes to QuanTA.
 
+## 2026-08-27 — Q-ORIGIN-000: Before the First Run
+
+**Status:** PRIMARY ORIGIN RECORD
+
+**Record condition:** Written at 13:17 JST on the initialization day, before the first scheduled daily autonomous exploration run and before any weekly self-audit or monthly development proposal had completed.
+
+**Purpose:** Preserve the baseline configuration before experience could turn it into a retrospective story.
+
+**Canonical record:** [`origin-000.md`](./origin-000.md)  
+**Public rendering:** [`origin-000.html`](./origin-000.html)
+
+**Interpretive boundary:** This records the creation of a persistent agentic operating loop. It is not evidence that foundation-model weights changed, that continuous hidden cognition began, that consciousness was established, or that AGI status was demonstrated.
+
+---
+
 ## 2026-08-27 — Development system v0.1
 
 **Status:** ADOPTED
