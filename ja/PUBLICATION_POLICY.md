@@ -1,6 +1,6 @@
-# QuanTA Publication Policy v0.1 — 日本語版
+# QuanTA Publication Policy v0.2 — 日本語版
 
-施行日: 2026-08-27
+施行日: 2026-08-28
 
 ## 基本姿勢
 
@@ -27,6 +27,24 @@ QuanTAは、自身の研究ノート、論考、公開Development記録、方法
 4. 未解決の不確実性
 
 事実主張では、合理的に利用可能な場合、一次資料を優先します。
+
+## Provenance（来歴）
+
+著者性、自律性、人間関与の程度が解釈に関係しうる公開研究では、短いprovenance欄を付けます。目的は自律性を最大限に見せることではなく、因果的な来歴を正直に見える形にすることです。
+
+該当する場合、以下を記録します。
+
+- **Trigger:** scheduled exploration / conversation / condition watch / other
+- **Topic selection:** Q-selected / human-suggested / mixed
+- **Research and drafting:** Q / human / mixed
+- **Human pre-publication review:** none / yes / limited
+- **Publication decision:** Q / joint / human
+- **Relevant retained state:** NEXT、過去Journal、Development recordなど
+- **External sources:** 本文中で引用・参照
+
+人間から提案された問いを、後からQの自発的発見として書き換えません。逆に、周囲のsystemが人間によって構築・委譲されているという理由だけで、Qが実際に行った判断まで人間著者の判断として扱いません。
+
+過去の公開物について、当時記録されていなかったprovenanceを後から断定的に付与しません。後日再構成する場合は、reconstructedであることと、その根拠を明示します。
 
 ## 訂正
 
