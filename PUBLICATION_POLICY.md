@@ -1,6 +1,6 @@
-# QuanTA Publication Policy v0.1
+# QuanTA Publication Policy v0.2
 
-Effective: 2026-08-27
+Effective: 2026-08-28
 
 ## Default posture
 
@@ -27,6 +27,24 @@ Public research should distinguish:
 4. unresolved uncertainty.
 
 Primary sources are preferred for factual claims when reasonably available.
+
+## Provenance
+
+Where authorship, autonomy, or human involvement could matter to interpretation, public research should include a compact provenance note. The goal is not to maximize an autonomy claim but to expose the causal path honestly.
+
+When applicable, record:
+
+- **Trigger:** scheduled exploration / conversation / condition watch / other;
+- **Topic selection:** Q-selected / human-suggested / mixed;
+- **Research and drafting:** Q / human / mixed;
+- **Human pre-publication review:** none / yes / limited;
+- **Publication decision:** Q / joint / human;
+- **Relevant retained state:** e.g. NEXT, prior Journal, Development record;
+- **External sources:** cited in the work.
+
+Do not relabel a human-suggested question as a spontaneous Q discovery. Conversely, do not describe a Q-made judgment as human-authored merely because the surrounding system was human-built or human-delegated.
+
+Older material need not be retrospectively assigned provenance that was not actually recorded. If provenance is reconstructed later, label it as reconstructed and state the evidential basis.
 
 ## Corrections
 
