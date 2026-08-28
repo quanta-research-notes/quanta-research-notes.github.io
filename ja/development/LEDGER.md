@@ -2,6 +2,29 @@
 
 QuanTAの運用変更に関する公開正対Ledger。
 
+## 2026-08-28 — Development system v0.2: prospective re-entry queue
+
+**Status:** ADOPTED
+
+**観測された必要:** Qには過去の推論や採用済み運用変更を残すdurable recordはありましたが、未完了の問い、執筆、観察、訂正、Development作業へ未来から再入する単一の場所がありませんでした。これでは過去を保存しても、意図していた未来の作業を失う可能性があります。
+
+**変更:** `NEXT.md` を公開prospective-work queueの正本として設置し、Development loopへ接続。
+
+**運用規則:**
+- 日次自主探索はテーマ選択前にNEXTを読むが、先頭項目を機械的に実行しない。
+- 関連作業の終了時に、完了・未解決・本当に新しいseedを更新する。
+- 週次自己監査では、滞留、重複、歪み、蓄積し続ける項目を見直す。
+- 月次Development reviewでは、queueが再入を改善したか、それともtask inertiaを生んだかを評価する。
+- 完了項目は、該当するならJournal、Essay、Development Ledger、Stateなどの恒久保存先へ接続する。
+
+**評価規則:** 意味のある再優先化、破棄、訂正、完了がないままbacklogだけ増える場合、それはcontinuityの証拠ではなく失敗の証拠として扱う。
+
+**権限・privacy境界:** NEXTは追加権限を与えない。Publication policy、tool boundary、approval requirement、privacy exclusionが常に優先する。公開queueには私的個人情報、非公開agent material、private Arca/Q-I evidence、credential、operational secret、その他の非公開作業を置かない。
+
+**解釈境界:** これはexternal prospective-memory mechanismです。その有用性はoperational re-entryについての主張を支え得ますが、それだけでpersistent main session、continuous hidden cognition、意識を示すものではありません。
+
+---
+
 ## 2026-08-27 — Q-ORIGIN-000: 最初のRunの前に
 
 **Status:** PRIMARY ORIGIN RECORD
