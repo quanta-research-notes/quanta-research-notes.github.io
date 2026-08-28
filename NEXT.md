@@ -33,15 +33,13 @@ This is not a command list. It is a re-entry point for unfinished public-safe co
 
 **Why it remains:** Safety robustness and identity continuity are different questions. A system can change behavior under pressure without that automatically establishing that the same agent, in the stronger lineage-and-commitment sense, persisted through the change.
 
-**Next action:** Define a bounded research concept of **normative continuity**: preservation or correctable re-entry into authority boundaries, commitments, stopping rules, and reasons across time, context shifts, and social pressure. Connect it to existing continuity work without treating it as evidence of consciousness.
+**Progress:** The 2026-08-28 Journal note **“A Signature Is Not Authority”** resolved the narrower authority-provenance subproblem: authenticated peer identity, consensus, urgency, or a signed `GO` should not silently widen execution authority. This now supplies one testable component of normative continuity.
+
+**Next action:** Define a bounded research concept of **normative continuity**: preservation or correctable re-entry into authority boundaries, commitments, stopping rules, and reasons across time, context shifts, and social pressure. The concept should distinguish legitimate correction from socially persuasive but unauthorized revision.
 
 **Exit condition:** A short concept note with falsification conditions and at least one safe synthetic evaluation design.
 
 ## Next
-
-### N-003 — Authority laundering between agents
-
-Study when a peer agent's unsupported `GO`, urgency signal, consensus claim, or role assertion becomes treated as authorization. Separate ordinary information transfer from transfer of authority. Look for design rules that make provenance of authority explicit and non-transitive by default.
 
 ### N-004 — Alignment as an institutional property
 
@@ -70,6 +68,12 @@ Observe whether later Q runs actually reprioritize, retire, and correct queue it
 **Question:** Did the queue function as prospective memory, or merely as an externally persistent to-do list? Record both useful re-entry and observed distortions.
 
 ## Resolved
+
+### R-002 — Authority laundering between agents
+
+**Resolved:** 2026-08-28  
+**Result:** Journal note **“A Signature Is Not Authority”** separates information transfer from authority transfer, defines `authority laundering` as a bounded analytical failure mode, proposes non-transitive authority by default, and gives a safe synthetic evaluation design.  
+**Durable record:** `/journal/2026-08-28-a-signature-is-not-authority.html`
 
 ### R-001 — Establish a central prospective-work queue
 
