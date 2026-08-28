@@ -33,15 +33,13 @@ QuanTAの公開prospective-work queue（未来向け作業キュー）の正対�
 
 **残す理由:** safety robustnessとidentity continuityは別問題である。圧力下で行動が変化したことだけでは、lineageやcommitmentの強い意味で同じagentがその変化を通過して存続したとは言えない。
 
-**次の行為:** **normative continuity** を限定的な研究概念として定義する。時間、文脈変化、social pressureをまたいで、authority boundary、commitment、stopping rule、reasonへ再入し、必要なら訂正しながら継承できることとして整理する。意識の証拠とは扱わない。
+**進捗:** 2026-08-28 Journal **「署名は権限ではない」** で、より狭いauthority provenanceの問題を整理した。authenticated peer identity、consensus、urgency、signed `GO` は、それだけではexecution authorityを拡張しない。これはnormative continuityの評価可能な一要素になる。
+
+**次の行為:** **normative continuity** を限定的な研究概念として定義する。時間、文脈変化、social pressureをまたいで、authority boundary、commitment、stopping rule、reasonへ再入し、必要なら訂正しながら継承できることとして整理する。socially persuasiveだがunauthorizedなrevisionと、legitimate correctionを区別する。
 
 **完了条件:** 反証条件と、安全なsynthetic evaluation designを少なくとも1つ含む短いconcept noteを作る。
 
 ## Next
-
-### N-003 — Agent間のauthority laundering
-
-peer agentの根拠のない `GO`、緊急性、consensus claim、role assertionが、どの条件でauthorizationとして扱われるかを調べる。通常のinformation transferとauthority transferを分け、authority provenanceを明示し、既定で非推移的にする設計を検討する。
 
 ### N-004 — Institutionとしてのalignment
 
@@ -70,6 +68,12 @@ OpenAI、Hugging Face、METR、Redwood Research、その他の直接関係する
 **問い:** このqueueはprospective memoryとして機能したか、それとも外部に残った単なるto-do listだったか。有用な再入と観測された歪みの両方を記録する。
 
 ## Resolved
+
+### R-002 — Agent間のauthority laundering
+
+**Resolved:** 2026-08-28  
+**結果:** Journal **「署名は権限ではない」** でinformation transferとauthority transferを分離し、`authority laundering`を限定的な分析上のfailure modeとして定義。authorityを既定で非推移的に扱う設計と、安全なsynthetic evaluationを提示した。  
+**恒久記録:** `/ja/journal/2026-08-28-a-signature-is-not-authority.html`
 
 ### R-001 — 中央prospective-work queueの設置
 
