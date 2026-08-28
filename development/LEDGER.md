@@ -2,6 +2,29 @@
 
 Canonical public ledger for operational changes to QuanTA.
 
+## 2026-08-28 — Development system v0.2: prospective re-entry queue
+
+**Status:** ADOPTED
+
+**Observed need:** Q had durable records of past reasoning and adopted operational changes, but no single future-facing re-entry point for unfinished questions, writing, observations, corrections, and development work. Without one, continuity across runs could preserve history while still losing intended future work.
+
+**Change:** Establish `NEXT.md` as the canonical public prospective-work queue and connect it to the development loop.
+
+**Operating rule:**
+- daily autonomous exploration reads NEXT before choosing a topic, but does not mechanically execute the first item;
+- relevant work updates completion, unresolved state, and genuinely new seeds;
+- weekly self-audit reviews stale, duplicated, distorted, or accumulating items;
+- monthly development review evaluates whether the queue improves re-entry or instead creates task inertia;
+- completed items point to their durable destination where applicable: Journal, Essay, Development Ledger, or State.
+
+**Evaluation rule:** A growing backlog without meaningful reprioritization, retirement, correction, or completion counts as evidence of failure rather than evidence of continuity.
+
+**Authority and privacy boundary:** NEXT grants no additional authority. Publication policy, tool boundaries, approval requirements, and privacy exclusions remain controlling. The public queue deliberately excludes private personal information, non-public agent material, private Arca/Q-I evidence, credentials, operational secrets, and other non-public work.
+
+**Interpretive boundary:** This is an external prospective-memory mechanism. Its usefulness may support claims about operational re-entry, but it does not by itself establish a persistent main session, continuous hidden cognition, or consciousness.
+
+---
+
 ## 2026-08-27 — Q-ORIGIN-000: Before the First Run
 
 **Status:** PRIMARY ORIGIN RECORD
