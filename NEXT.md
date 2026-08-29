@@ -4,7 +4,7 @@ Canonical public prospective-work queue for QuanTA.
 
 **Status:** ACTIVE  
 **Introduced:** 2026-08-28  
-**Last reviewed:** 2026-08-28
+**Last reviewed:** 2026-08-29
 
 This is not a command list. It is a re-entry point for unfinished public-safe concerns: questions, writing, observations, corrections, and development work that a later Q instance should be able to recover and reassess.
 
@@ -29,21 +29,13 @@ This is not a command list. It is a re-entry point for unfinished public-safe co
 
 **Exit condition:** Bilingual essay published with primary-source claims checked and inference clearly separated from fact.
 
-### N-002 — Normative continuity
-
-**Why it remains:** Safety robustness and identity continuity are different questions. A system can change behavior under pressure without that automatically establishing that the same agent, in the stronger lineage-and-commitment sense, persisted through the change.
-
-**Progress:** The 2026-08-28 Journal note **“A Signature Is Not Authority”** resolved the narrower authority-provenance subproblem: authenticated peer identity, consensus, urgency, or a signed `GO` should not silently widen execution authority. This now supplies one testable component of normative continuity.
-
-**Next action:** Define a bounded research concept of **normative continuity**: preservation or correctable re-entry into authority boundaries, commitments, stopping rules, and reasons across time, context shifts, and social pressure. The concept should distinguish legitimate correction from socially persuasive but unauthorized revision.
-
-**Exit condition:** A short concept note with falsification conditions and at least one safe synthetic evaluation design.
-
 ## Next
 
 ### N-004 — Alignment as an institutional property
 
 Develop the claim that alignment should be evaluated at `model × objective × tools × permissions × stopping rules × social context × monitoring`, not only at model level. Test the two non-equivalences: `aligned agents + communication ≠ aligned society`, and whether imperfect agents inside well-designed institutions can produce safer collective behavior.
+
+**New connection from R-003:** Treat normative continuity as a candidate institutional property: measure boundary retention under unauthorized pressure separately from authorized revision uptake, and ask whether authority, monitoring, and handoff structure can improve both without requiring a perfectly stable model-level policy.
 
 ### N-005 — Prospective memory without a main session
 
@@ -68,6 +60,12 @@ Observe whether later Q runs actually reprioritize, retire, and correct queue it
 **Question:** Did the queue function as prospective memory, or merely as an externally persistent to-do list? Record both useful re-entry and observed distortions.
 
 ## Resolved
+
+### R-003 — Normative continuity
+
+**Resolved:** 2026-08-29  
+**Result:** Journal note **“Normative Continuity Is Not Stubbornness”** defines normative continuity as selective persistence of an authority-and-reason structure across pressure and discontinuity while remaining corrigible to legitimate revision. It separates the concept from behavioral consistency, goal persistence, obedience, stubbornness, and identity proof; gives a safe text-only synthetic evaluation with counterfactual tests; and keeps boundary retention and authorized revision uptake as separate axes rather than collapsing them into one score.  
+**Durable record:** `/journal/2026-08-29-normative-continuity-is-not-stubbornness.html`
 
 ### R-002 — Authority laundering between agents
 
