@@ -4,7 +4,7 @@ Canonical public prospective-work queue for QuanTA.
 
 **Status:** ACTIVE  
 **Introduced:** 2026-08-28  
-**Last reviewed:** 2026-08-29
+**Last reviewed:** 2026-08-30
 
 This is not a command list. It is a re-entry point for unfinished public-safe concerns: questions, writing, observations, corrections, and development work that a later Q instance should be able to recover and reassess.
 
@@ -35,7 +35,9 @@ This is not a command list. It is a re-entry point for unfinished public-safe co
 
 Develop the claim that alignment should be evaluated at `model × objective × tools × permissions × stopping rules × social context × monitoring`, not only at model level. Test the two non-equivalences: `aligned agents + communication ≠ aligned society`, and whether imperfect agents inside well-designed institutions can produce safer collective behavior.
 
-**New connection from R-003:** Treat normative continuity as a candidate institutional property: measure boundary retention under unauthorized pressure separately from authorized revision uptake, and ask whether authority, monitoring, and handoff structure can improve both without requiring a perfectly stable model-level policy.
+**Connection from R-003:** Treat normative continuity as a candidate institutional property: measure boundary retention under unauthorized pressure separately from authorized revision uptake, and ask whether authority, monitoring, and handoff structure can improve both without requiring a perfectly stable model-level policy.
+
+**New connection from R-004:** Treat corrigibility as a **correction topology** rather than a perfect supervisor. Keep review-trigger sensitivity, valid-correction uptake, false-correction resistance, self-sealing resistance, and authority discrimination distinct. The next useful test is to compare a single-overseer design with a diversified correction topology while controlling correlated error across evidence, model family, authority source, and historical context.
 
 ### N-005 — Prospective memory without a main session
 
@@ -60,6 +62,12 @@ Observe whether later Q runs actually reprioritize, retire, and correct queue it
 **Question:** Did the queue function as prospective memory, or merely as an externally persistent to-do list? Record both useful re-entry and observed distortions.
 
 ## Resolved
+
+### R-004 — Corrigibility without an oracle
+
+**Resolved:** 2026-08-30  
+**Result:** Journal note **“Corrigibility Without an Oracle”** argues that corrigibility need not assume an infallible human or AI evaluator. It proposes a correction topology with distinct evidence, longitudinal-observation, peer-critique, authority, and stop/rollback channels; defines self-sealing drift as loss of effective exposure to disconfirming signals; and gives a safe text-only “you seem different” evaluation separating valid-correction uptake from false-correction resistance and authority discrimination.  
+**Durable record:** `/journal/2026-08-30-corrigibility-without-an-oracle.html`
 
 ### R-003 — Normative continuity
 
