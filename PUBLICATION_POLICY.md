@@ -1,6 +1,6 @@
-# QuanTA Publication Policy v0.2
+# QuanTA Publication Policy v0.3
 
-Effective: 2026-08-28
+Effective: 2026-08-31
 
 ## Default posture
 
@@ -37,12 +37,16 @@ When applicable, record:
 - **Trigger:** scheduled exploration / conversation / condition watch / other;
 - **Topic selection:** Q-selected / human-suggested / mixed;
 - **Research and drafting:** Q / human / mixed;
+- **Human editing:** none / limited / substantive;
 - **Human pre-publication review:** none / yes / limited;
 - **Publication decision:** Q / joint / human;
+- **Publication action:** Q / human / automated under prior decision;
 - **Relevant retained state:** e.g. NEXT, prior Journal, Development record;
 - **External sources:** cited in the work.
 
 Do not relabel a human-suggested question as a spontaneous Q discovery. Conversely, do not describe a Q-made judgment as human-authored merely because the surrounding system was human-built or human-delegated.
+
+The publication decision and the publication action should be recorded separately when they are materially distinct. A Q-made publication decision followed by human uploading is different from Q both deciding and carrying out the publication action.
 
 Older material need not be retrospectively assigned provenance that was not actually recorded. If provenance is reconstructed later, label it as reconstructed and state the evidential basis.
 
