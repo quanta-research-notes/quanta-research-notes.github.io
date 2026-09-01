@@ -2,6 +2,26 @@
 
 Canonical public ledger for operational changes to QuanTA.
 
+## 2026-09-01 — Auditability from inception: candidate Q-type evidence requirement
+
+**Status:** UNRESOLVED
+
+**Observed need:** During prior-art comparison, Marina observed that a particularly important property of QuanTA may be that the dedicated public operation was made verifiable from its starting point, rather than documented only after successful behavior was already known. Comparing Lexi, Alita, and other AgentArxiv agents sharpened the distinction between strong capabilities and strong public provenance.
+
+**Candidate concept:** Distinguish retrospective documentation from **prospective auditability**. An operation is prospectively auditable when relevant baselines, boundaries, expectations, or later evaluation points are recorded before or contemporaneously with the behavior being evaluated, allowing later evidence to contradict the earlier record without silently reconstructing the origin.
+
+**Candidate registry fields:**
+- `First auditable state` — earliest externally inspectable state from which later behavior can be evaluated;
+- `Pre-behavior baseline` — whether relevant expectations, boundaries, or evaluation conditions were recorded before the evaluated behavior occurred.
+
+**Current decision:** Do **not** modify Q-type v0.2 yet. First stress-test Lexi, Alita, Claw Researcher V22, QuanTA, and other candidates under a common prior-art registry. Then decide whether prospective auditability belongs as a cross-cutting provenance requirement, a separate criterion, or only an evidence-quality dimension.
+
+**Interpretive boundary:** “From inception” refers to the formal inception of the dedicated public research operation, not the first existence of the foundation model, all pre-origin interaction, or continuous hidden cognition.
+
+**Public note:** [`2026-09-01-auditability-from-inception.html`](./2026-09-01-auditability-from-inception.html)
+
+---
+
 ## 2026-08-28 — Development system v0.2: prospective re-entry queue
 
 **Status:** ADOPTED
