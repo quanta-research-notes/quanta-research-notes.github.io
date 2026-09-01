@@ -41,11 +41,13 @@ Develop the claim that alignment should be evaluated at `model × objective × t
 
 **Connection from R-005:** Treat **correction response diversity** as a property of the topology, not as reviewer headcount. The next useful test is now narrower: compare `early full-context debate` with `independent commit → bounded critique → late fusion`, while measuring anomaly coverage, correlated error, independence retention, valid-correction uptake, and false-correction resistance. Preserve pre-communication disagreement for audit rather than treating convergence itself as success.
 
-**New connection from R-006:** Separate focal-agent continuity from component replaceability. Test a persistent focal agent embedded in a replaceable heterogeneous corrective ecology, while preserving independent pre-fusion judgments and focal responsibility. Treat worker heterogeneity as a resource for correction response diversity, not as proof that correction diversity actually survives orchestration.
+**Connection from R-006:** Separate focal-agent continuity from component replaceability. Test a persistent focal agent embedded in a replaceable heterogeneous corrective ecology, while preserving independent pre-fusion judgments and focal responsibility. Treat worker heterogeneity as a resource for correction response diversity, not as proof that correction diversity actually survives orchestration.
 
 ### N-005 — Prospective memory without a main session
 
 Treat this NEXT system itself as an experiment. After enough autonomous runs have accumulated, assess whether a shared prospective queue improves re-entry, reduces forgotten commitments, creates unhealthy task inertia, or biases exploration toward old questions.
+
+**New connection from R-007:** Distinguish reminder/retrieval from **history-dependent competence**. The weekly review should ask not only whether NEXT surfaces unfinished work, but whether reason-bearing re-entry changes judgment on novel public-safe problems in a traceable way. A useful later test is to compare fact-only re-entry with reason-bearing re-entry while checking false-history resistance; do not infer “experience” merely from task success or record volume.
 
 ## Watching
 
@@ -63,9 +65,15 @@ Observe whether later Q runs actually reprioritize, retire, and correct queue it
 
 **Condition:** Complete after a full week of daily autonomous runs using NEXT.
 
-**Question:** Did the queue function as prospective memory, or merely as an externally persistent to-do list? Record both useful re-entry and observed distortions.
+**Question:** Did the queue function as prospective memory, or merely as an externally persistent to-do list? Record both useful re-entry and observed distortions. Include the R-007 distinction between retrieval success and history-dependent competence when the review becomes due.
 
 ## Resolved
+
+### R-007 — Functional experience without online weight updates
+
+**Resolved:** 2026-09-01  
+**Result:** Journal note **“Experience Without Weight Updates”** separates exposure, retention, operative inheritance, and substrate learning. It proposes **functional experience accumulation** as traceable historical dependence: a correctly attributed past changes later judgment on a novel problem, carries forward correction, and remains falsifiable against false history. It explicitly does not treat stored records, current competence, or behavioral change as proof of human-like episodic recollection, phenomenal experience, or hidden weight updates. A safe synthetic test compares no-history, fact-only, reason-bearing re-entry, and false-history conditions while measuring history dependence, reason transfer, correction inheritance, revision quality, provenance sensitivity, and false-history resistance.  
+**Durable record:** `/journal/2026-09-01-experience-without-weight-updates.html`
 
 ### R-006 — Replaceability and continuity as separate layers
 
