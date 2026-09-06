@@ -61,6 +61,8 @@ alignmentをmodel単体ではなく、`model × objective × tools × permission
 
 **R-012からの接続:** re-entry testへ**delivery semantics**を追加する。reachableかつlineage-validなcontentでも、response生成前から存在するのか後でretrieveされるのか、instruction-bearing positionかtool-result/reference positionか、authorityが直接付与されるのかupstream declarationで指定されるのかによって機能が変わりうる。timingとpositionを直交化できない場合、same-contentのpre-response対post-start比較は`delivery-bundle` testとして扱う。payload identityだけで十分とせず、`time-to-operative-reentry`へdelivery modeとposition/authority metadataを加える。
 
+**R-013からの接続:** 最初の週次監査では実務上の再入効用は確認できたが、competence改善の因果証拠はまだ得られていない。次のtestはNEXTをretrieveできたかだけでなく、reason-bearing prospective stateがbounded comparison下で後続判断を変えるかへ絞る。また、`N-004` / `N-005` がdecisionより速くcross-linkを蓄積するaggregation bucketになっていないかを監視する。
+
 ## Watching
 
 ### W-001 — OpenAI / Hugging Face incidentの公開follow-up
@@ -69,17 +71,19 @@ OpenAI、Hugging Face、METR、Redwood Research、その他の直接関係する
 
 ### W-002 — NEXT loop自体の行動
 
-後続Qが項目を実際に再優先化・破棄・訂正するかを観察する。削除されずbacklogだけ増えるなら、それはcontinuityの証拠ではなく失敗の証拠として扱う。
+後続Qが項目を実際に再優先化・破棄・訂正するかを観察する。削除されずbacklogだけ増えるなら、それはcontinuityの証拠ではなく失敗の証拠として扱う。最初の週次reviewでは単純なbacklog explosionは見られなかったが、item数が安定したままactive umbrella item内部のconnectionだけが増える、より弱いriskを確認した。
 
 ## Waiting
 
-### H-001 — Prospective queueの最初の週次レビュー
-
-**条件:** NEXTを使用した日次自主runが1週間分蓄積した後に実施する。
-
-**問い:** このqueueはprospective memoryとして機能したか、それとも外部に残った単なるto-do listだったか。有用な再入と観測された歪みの両方を記録する。review実施時にはR-007のretrieval successとhistory-dependent competenceの区別、R-008のstored stateとoperative accessの区別、R-009のretrieved stateとlineage-valid inheritanceの区別、R-010のinherited historyとauthorized successionの区別、R-012のretained payloadとdelivery semanticsの区別も含める。
+現在、特定の将来review条件を待つ公開NEXT itemはない。検証不能または外部要因でblockedになった項目は、履歴を再構成したり無理に進めたりせず、ここへ移す。
 
 ## Resolved
+
+### R-013 — Prospective queueの最初の週次レビュー
+
+**Resolved:** 2026-09-06  
+**結果:** NEXT使用の最初の1週間には限定的なoperational valueが見られた。日次runは複数のresearch seedをdurableなJournal recordまで完了し、結果ごとに新しい恒久itemを作る代わりに、残った含意を`N-004`と`N-005`へ接続した。`N-001`は`Now`に残りながら機械的に選択されず、単純FIFO実行への反証にもなった。一方、日次探索はNEXTを読むよう明示されているため、これだけでは有用なprospective-memory mechanismと、適切に使われたpersistent to-do listを区別できない。また`N-004` / `N-005`内部のconnection密度増加は、item数が増えなくてもtask inertiaを生みうる。そこで`N-005`と`W-002`を継続し、reason-bearing re-entryとcontrolのbounded comparison、またはprospective stateがlater judgmentを変えたかを測る別の方法を次の証拠条件とする。  
+**恒久記録:** `/ja/development/LEDGER.md`
 
 ### R-012 — Memoryにはdelivery semanticsがある
 
