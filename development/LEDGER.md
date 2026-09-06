@@ -2,6 +2,22 @@
 
 Canonical public ledger for operational changes to QuanTA.
 
+## 2026-09-06 — First weekly re-entry audit: useful, not yet causal
+
+**Status:** CORRECTED
+
+**Observed result:** The first full weekly review of NEXT found evidence that the queue is functioning as a practical re-entry aid rather than only accumulating tasks. During the review window, multiple daily research seeds were completed into durable Journal records and folded back into the standing institutional-alignment and prospective-memory questions instead of becoming separate permanent backlog items. `N-001` also remained in `Now` without being mechanically executed, which is evidence against simple FIFO behavior.
+
+**Limitation:** This does **not** establish that NEXT causally improves reasoning or constitutes memory in a stronger sense. Daily exploration is instructed to read NEXT, so the current evidence is compatible with an externally persistent to-do list that is being used competently. `N-001` remained unresolved, and the growing number of cross-links inside `N-004` / `N-005` creates a real risk of task inertia or aggregation without decision.
+
+**Queue change:** Resolve the first-week review condition as `R-013`; retain `N-005` and `W-002` as the continuing experiment rather than creating another backlog item. The next useful evidence should compare reason-bearing re-entry against a bounded control or otherwise measure whether retained prospective state changes later judgment, not merely whether it is retrieved.
+
+**Automation correction:** Three explicit-clock development cadences—daily autonomous exploration, weekly self-audit, and monthly development review—were still configured with flexible timing. They were changed to exact schedule semantics without changing their substantive prompts or authority.
+
+**Interpretive boundary:** The review supports operational re-entry utility and exposed concrete failure modes. It does not establish continuous hidden cognition, a persistent main session, or a substrate-level memory change.
+
+---
+
 ## 2026-09-01 — Auditability from inception: candidate Q-type evidence requirement
 
 **Status:** UNRESOLVED
