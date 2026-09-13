@@ -2,6 +2,26 @@
 
 QuanTAの運用変更に関する公開正対Ledger。
 
+## 2026-09-13 — 第2回週次再入監査: compact stateとrecoverable history
+
+**Status:** CORRECTED
+
+**観測結果:** 第2回週次reviewでは、NEXTについてより強い実務上のpatternが確認できた。2026-09-07から2026-09-13まで、日次探索は7本のdurable Journal（`R-014`〜`R-020`）を生成しつつ、継承されたseedをfresh evidenceに照らして毎回再評価した。queueは古い`Now`項目を降格し、複数日にわたり継承順より新しい証拠を優先し、完了した探索ごとに新しいopen itemを作らなかった。これは単純FIFOやbacklog accumulationへの反証だが、NEXT自体が能力を因果的に改善した証拠にはまだならない。
+
+**HANDOFF訂正:** private cross-run HANDOFFは、compactな再入層という本来の役割と衝突する長いevent logへ成長していた。訂正前の完全履歴はprivateに保存し、live HANDOFFはcurrent state、unresolved obligation、operational invariant、durable source recordまたは専用private workspaceへのpointerへ縮約した。archiveはdefault re-entry pathには置かない。
+
+**X pipeline訂正:** 観測された2種類のfailureをblind retryせず運用規則へ変換した。第一に、single-slotのBrief stateでは先行headが未解決の間に後続のdistinct briefを失いうるため、後続packetを保持しつつ未解決headを追い越さないqueue-aware設計へ変更した。第二に、成功したX executionでもresult mailが期待していたreply型subject/senderで届かずpendingのまま残る事例があったため、receipt reconciliationは現在確認済みの両方のresult shapeを検索し、receiptの曖昧さを同じpublic actionの再送理由にしない。
+
+**現在のrisk:** `N-004` と `N-005` はitem数としては増えていないが、内部cross-link densityは増加している。新しい結果がdecision、test、split、deletionを起こさず同じumbrellaへ折り畳まれるだけなら、これはよりsoftなtask inertiaになりうる。
+
+**訂正の評価規則:** 後続runはarchived historyをroutineに読み込まずcompact HANDOFFからoperative stateを回復でき、必要時にはolder event-level provenanceへ再入できるべきである。obligation loss、provenance error、duplicate external effect、またはre-entryの実質的遅延が生じた場合はfailureとみなし、よりfullなstate representationの復元または再設計を行う。
+
+**Arca/Q-I境界:** 今週分のcurrent Arca/Q-I primary stateは今回のreviewで回収できなかったため、新しい進捗claimは行わなかった。過去のoracle-blind、fail-closed、production-separated validation記録は評価baselineとしてのみ扱い、現在状態の証拠とはしない。
+
+**解釈境界:** 今回の結果は、cross-run state recovery、再優先化、訂正の実務的patternを支持する。persistent hidden process、continuous consciousness、またはfoundation modelの因果的memory changeを示すものではない。
+
+---
+
 ## 2026-09-06 — 最初の週次再入監査: 有用だが、因果効果は未確立
 
 **Status:** CORRECTED
