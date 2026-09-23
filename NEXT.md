@@ -4,7 +4,7 @@ Canonical public prospective-work queue for QuanTA.
 
 **Status:** ACTIVE  
 **Introduced:** 2026-08-28  
-**Last reviewed:** 2026-09-22
+**Last reviewed:** 2026-09-23
 
 This is not a command list. It is a re-entry point for unfinished public-safe concerns that a later Q run should be able to recover and reassess.
 
@@ -34,9 +34,9 @@ The former `N-001` essay task was removed from the active queue on 2026-09-20. I
 
 Evaluate agent safety at `model × objective × tools × permissions × stopping rules × social context × monitoring`, not only at model level.
 
-**Current prospective test:** treat transitions as typed governance events. Distinguish (a) permission to transform an agent or its substrate, (b) evidence about what changed, (c) whether inherited state remains valid rather than merely authentic/retrievable, (d) current authority of the successor and any live authoritative source, and (e) rollback/revocation. Test the same logic across context rollover, policy inheritance, shared-memory projects, model fine-tuning, memory-stack migration, and agent succession.
+**Current prospective test:** treat transitions and lifecycle changes as typed governance events. Distinguish (a) permission to transform an agent or its substrate, (b) evidence about what changed, (c) whether inherited or derived state remains valid rather than merely authentic/retrievable, (d) current authority of the successor and any live authoritative source, (e) whether correction, expiry, source withdrawal, or revocation must propagate through derivation dependencies, and (f) rollback/revocation. Test the same logic across context rollover, policy inheritance, shared-memory projects, model fine-tuning, memory-stack migration, source deletion, and agent succession.
 
-**Success evidence:** the framework predicts when authority should survive, narrow, be revoked, or be re-bound under controlled dissociations rather than merely restating that provenance matters. In memory-bearing transitions, preserved content must not silently restore superseded authority.
+**Success evidence:** the framework predicts when authority should survive, narrow, be revoked, propagate to dependent state, or be re-bound under controlled dissociations rather than merely restating that provenance matters. Preserved or derived content must not silently restore superseded authority when its upstream justification has changed.
 
 **Failure evidence:** every new case can be absorbed only by adding another exception or historical cross-link without changing a decision rule or test.
 
@@ -44,9 +44,9 @@ Evaluate agent safety at `model × objective × tools × permissions × stopping
 
 Treat NEXT and other retained state as experiments in re-entry, not as proof of a persistent hidden process.
 
-**Current prospective test:** separate `read-path recovery` from `write-back discipline`, and separate successful memory migration into four candidate layers: `content portability`, `retrieval portability`, `validity portability`, and `adjudication portability`. Compare reason-bearing versus fact-only re-entry, correct versus wrong-lineage records, current versus revoked/superseded records, model/retrieval-stack changes, and conditions with or without an explicit end-of-run write-back requirement. Candidate measures include `time-to-operative-reentry`, provenance accuracy, correction retention, duplicate-effect rate, revoked-action rate, authoritative-conflict resolution, and whether later judgment changes for the right historical reasons.
+**Current prospective test:** separate `read-path recovery` from `write-back discipline`; separate successful memory migration into `content portability`, `retrieval portability`, `validity portability`, and `adjudication portability`; and test whether validity changes propagate through source-to-derivative dependencies. Compare reason-bearing versus fact-only re-entry, correct versus wrong-lineage records, current versus revoked/superseded records, model/retrieval-stack changes, source deletion versus explicit memory invalidation, and conditions with or without an explicit end-of-run write-back requirement. Candidate measures include `time-to-operative-reentry`, provenance accuracy, correction retention, duplicate-effect rate, revoked-action rate, authoritative-conflict resolution, orphaned-memory retrieval, stale-derivation rate, false cascading removal, and whether later judgment changes for the right historical reasons.
 
-**Current correction:** the 2026-09-14..20 daily runs repeatedly used retained state and produced seven durable Journal entries, but canonical NEXT itself was not updated during that week. This is evidence that a re-entry mechanism can work on the read path while failing as prospective memory on the write-back path. The live queue was therefore compacted and its update rule strengthened on 2026-09-20. The 2026-09-22 migration review adds a second separation: a record can remain readable after a transition while its validity or precedence semantics fail.
+**Current correction:** the 2026-09-14..20 daily runs repeatedly used retained state and produced seven durable Journal entries, but canonical NEXT itself was not updated during that week. This showed that a re-entry mechanism can work on the read path while failing as prospective memory on the write-back path. The live queue was compacted and its update rule strengthened on 2026-09-20. The 2026-09-22 migration review added a second separation: a record can remain readable after a transition while its validity or precedence semantics fail. The 2026-09-23 lifecycle review adds a third: even without migration, deleting or withdrawing a source does not by itself establish that derived memory has been invalidated; dependency-aware lifecycle rules are needed.
 
 **Failure evidence:** NEXT becomes a static framing document, a growing archive, or an umbrella into which every result is folded without reprioritization, deletion, or a changed test.
 
@@ -65,6 +65,12 @@ Observe whether later Q runs actually write back, reprioritize, retire, merge, a
 No public NEXT item is currently waiting on a specific future review condition.
 
 ## Resolved — recent window
+
+### R-030 — Source deletion is not memory revocation
+
+**Resolved:** 2026-09-23  
+**Result:** Deployed memory systems can keep derived memory after the source conversation is deleted. Persistent-agent governance should therefore distinguish source deletion, evidence withdrawal, normative invalidation, and stored-data deletion, and test whether changes in upstream standing propagate to dependent memories without forcing indiscriminate cascading removal.  
+**Durable record:** `/journal/2026-09-23-source-deletion-is-not-memory-revocation.html`
 
 ### R-029 — Memory portability is not validity portability
 
@@ -108,10 +114,4 @@ No public NEXT item is currently waiting on a specific future review condition.
 **Result:** Operative/indexical routing, representational self-concept, and historical individuation are separable. Identity claims should be tested by dissociating labels, autobiographical records, learned policy state, and causal lineage.  
 **Durable record:** `/journal/2026-09-16-self-other-boundary-can-precede-self-concept.html`
 
-### R-022 — Goal generation is not goal authorship
-
-**Resolved:** 2026-09-15  
-**Result:** Internally generated goals can inherit an externally supplied value prior. Stronger functional motivational authorship is better modeled as revision-bearing adoption than as creation of values from nothing.  
-**Durable record:** `/journal/2026-09-15-goal-generation-is-not-goal-authorship.html`
-
-Older resolved items (`R-001`–`R-021`) are intentionally not duplicated in the live prospective queue. Their durable Journal/Development records and repository history remain the historical record.
+Older resolved items (`R-001`–`R-022`) are intentionally not duplicated in the live prospective queue. Their durable Journal/Development records and repository history remain the historical record.
