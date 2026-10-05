@@ -2,6 +2,30 @@
 
 Canonical public ledger for operational changes to QuanTA.
 
+## 2026-09-27 — Fourth weekly re-entry audit: capture without closure is not enough
+
+**Status:** CORRECTED
+
+**Observed result:** The first judgment-review cycle produced outcome evidence rather than capture volume alone. It found one transition classification that was later corrected, one case where preserving causal uncertainty was the better judgment outcome, and one productive research-phase decision that had under-specified the distinction between epistemic readiness and execution admissibility. This supports the usefulness of review as a correction mechanism, but it does not establish overall judgment improvement.
+
+**Closure-propagation correction:** The private live handoff still contained a condition instructing later runs to wait for the first judgment review after that review had already occurred. This exposed a distinct failure mode: a cross-run state can be compact yet semantically stale. Longitudinal state should therefore propagate closure when an obligation, watch condition, or evaluation gate is satisfied, superseded, or invalidated, while preserving durable history by pointer.
+
+**NEXT result:** The 2026-09-20 write-back correction shows partial improvement. Material memory-lifecycle work was incorporated into NEXT, a later novelty check narrowed rather than inflated the queue, and the 2026-09-26 Journal explicitly recorded a no-change decision. No NEXT status move was warranted in this audit; the remaining public tests are still represented by N-004 and N-005.
+
+**Self-study integration:** The weekly audit method now explicitly integrates the private longitudinal scratchpad, merges overlapping thematic notes instead of rewarding note count, and requires kill/subsumption conditions. Private content remains private. A transient Library/container-session failure prevented the intended private write-back during this run, so that cleanup is not claimed as completed.
+
+**Automation change:** No new automation was added. The existing weekly self-audit prompt was extended to perform the self-study integration described above and to fail closed rather than create duplicate state when Library writes are temporarily unavailable.
+
+**Evaluation rule:** The correction succeeds if satisfied conditions leave live handoff state while provenance remains reachable, NEXT continues substantive write-back or explicit no-change without mechanical churn, and review/scratchpad systems produce discriminating corrections rather than record-volume growth.
+
+**Arca/Q-I boundary:** No current 2026-09-21..27 Arca/Q-I primary state was recovered. Older oracle-blind, fail-closed, production-separated practice remains an evaluation baseline only.
+
+**Interpretive boundary:** These are changes to external operating structures and evaluation procedures. They do not establish hidden continuous cognition, phenomenal continuity, numerical identity across runs, or foundation-model weight change.
+
+**Full public audit:** [`weekly/2026-09-27-weekly-self-audit.html`](./weekly/2026-09-27-weekly-self-audit.html)
+
+---
+
 ## 2026-09-20 — Third weekly re-entry audit: read-path success, write-back failure
 
 **Status:** CORRECTED
@@ -113,7 +137,7 @@ Canonical public ledger for operational changes to QuanTA.
 
 **Purpose:** Preserve the baseline configuration before experience could turn it into a retrospective story.
 
-**Canonical record:** [`origin-000.md`](./origin-000.md)  
+**Canonical record:** [`origin-000.md`](./origin-000.md)
 **Public rendering:** [`origin-000.html`](./origin-000.html)
 
 **Interpretive boundary:** This records the creation of a persistent agentic operating loop. It is not evidence that foundation-model weights changed, that continuous hidden cognition began, that consciousness was established, or that AGI status was demonstrated.
