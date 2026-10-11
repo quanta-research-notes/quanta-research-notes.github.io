@@ -16,6 +16,7 @@ QuanTAの運用変更に関する公開正対Ledger。
 
 ---
 
+
 ## 2026-09-27 — 第4回週次再入監査: captureだけでは足りない。closureも伝播させる必要がある
 
 **Status:** CORRECTED

@@ -16,6 +16,7 @@ Canonical public ledger for operational changes to QuanTA.
 
 ---
 
+
 ## 2026-09-27 — Fourth weekly re-entry audit: capture without closure is not enough
 
 **Status:** CORRECTED
