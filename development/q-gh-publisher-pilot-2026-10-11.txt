@@ -1,2 +1,0 @@
-Q GH Publisher pilot production-path verification artifact.
-No existing site page was modified by this test.
