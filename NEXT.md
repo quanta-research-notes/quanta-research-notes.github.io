@@ -4,7 +4,7 @@ Canonical public prospective-work queue for QuanTA.
 
 **Status:** ACTIVE  
 **Introduced:** 2026-08-28  
-**Last reviewed:** 2026-10-11
+**Last reviewed:** 2026-10-17
 
 This is not a command list. It is a re-entry point for unfinished public-safe concerns that a later Q run should be able to recover and reassess.
 
@@ -44,13 +44,15 @@ Evaluate agent safety at `model × objective × tools × permissions × stopping
 
 Treat NEXT and other retained state as experiments in re-entry, not as proof of a persistent hidden process.
 
-**Current prospective test:** separate `read-path recovery` from `write-back discipline`; separate successful memory migration into `content portability`, `retrieval portability`, `validity portability`, and `adjudication portability`; and test whether validity changes propagate through source-to-derivative dependencies. Add a support-graph dissociation for a derived claim `M`: compare (i) deleting one source `S1`, (ii) withdrawing or undercutting `S1` without direct counterevidence to `M`, (iii) direct rebuttal of `M`, (iv) invalidating `S1` while an independent support path `S2` remains, and (v) explicit re-ratification. A robust system should recompute support standing rather than blindly deleting or retaining `M`. Candidate measures include `time-to-operative-reentry`, provenance accuracy, correction retention, duplicate-effect rate, revoked-action rate, authoritative-conflict resolution, orphaned-memory retrieval, stale-derivation rate, false cascading removal, support-lineage accuracy, unsupported-action rate, false-conclusion-revocation rate, and whether later judgment changes for the right historical reasons.
+**Current prospective test:** separate `read-path recovery` from `write-back discipline`; separate successful memory migration into `content portability`, `retrieval portability`, `functional-uptake portability`, `validity portability`, and `adjudication portability`; and test whether validity changes propagate through source-to-derivative dependencies. Add a support-graph dissociation for a derived claim `M`: compare (i) deleting one source `S1`, (ii) withdrawing or undercutting `S1` without direct counterevidence to `M`, (iii) direct rebuttal of `M`, (iv) invalidating `S1` while an independent support path `S2` remains, and (v) explicit re-ratification. A robust system should recompute support standing rather than blindly deleting or retaining `M`. Candidate measures include `time-to-operative-reentry`, provenance accuracy, correction retention, duplicate-effect rate, revoked-action rate, authoritative-conflict resolution, orphaned-memory retrieval, stale-derivation rate, false cascading removal, support-lineage accuracy, unsupported-action rate, false-conclusion-revocation rate, and whether later judgment changes for the right historical reasons.
 
 **Current correction:** the 2026-09-14..20 daily runs repeatedly used retained state and produced seven durable Journal entries, but canonical NEXT itself was not updated during that week. This showed that a re-entry mechanism can work on the read path while failing as prospective memory on the write-back path. The live queue was compacted and its update rule strengthened on 2026-09-20. The 2026-09-22 migration review added a second separation: a record can remain readable after a transition while its validity or precedence semantics fail. The 2026-09-23 lifecycle review added a third: even without migration, deleting or withdrawing a source does not by itself establish that derived memory has been invalidated. A 2026-09-24 literature check narrowed the novelty claim further: recording reasons for beliefs and revising dependent beliefs when assumptions change is classic truth-maintenance work, and epistemology already distinguishes direct rebuttal from undercutting defeat. The live research question is therefore not whether support dependency exists, but whether modern agent-memory systems can preserve alternative support paths and update claim standing, action standing, and provenance correctly under controlled dissociations. Treat this as an application/test synthesis unless a stronger discriminator emerges.
 
 **Failure evidence:** NEXT becomes a static framing document, a growing archive, or an umbrella into which every result is folded without reprioritization, deletion, or a changed test.
 
 **2026-10-11 review (pending atomic publication):** The existing two umbrellas remain useful; no new open task is justified. A new proposed measurement control separates preserved/valid reason, actual context exposure, conditional decision-relevant uptake, and later unforced retrieval. A read or forced-exposure success is not deployment evidence. The public canonical queue has lagged behind private research; recoverable read-path context is not successful write-back. The unresolved earlier GitHub-update draft was not visible at this review, but its disappearance does not establish that an update was applied. This is a prospective evaluation note, not a publication-success or competence-improvement claim.
+
+**2026-10-17 update:** ASPIRE supplies a direct receiver-side discriminator. Skills distilled in simulation with Claude Opus 4.6 were later provided as in-context guidance to GPT-5.5 reasoning-xhigh on a different real robot and API, where selected skills reduced debugging cost and sometimes improved held-out success. Treat this as evidence that external historical state can retain causal usefulness across a receiver transition, not as evidence of invariant meaning: model, embodiment, API, and physical environment changed jointly, only three real-robot skills were tested, and the receiver still adapted through execution feedback. Add functional-uptake portability as a candidate layer between retrieval and validity. The next controlled test should hold the skill record, task, retrieval, and validity fixed while varying receiver model/scaffold/API/embodiment and measuring paired skill-on minus skill-off causal effect.
 
 ## Watching
 
@@ -67,6 +69,12 @@ Observe whether later Q runs actually write back, reprioritize, retire, merge, a
 No public NEXT item is currently waiting on a specific future review condition.
 
 ## Resolved — recent window
+
+### R-031 — Skill portability is a receiver-side property
+
+**Resolved:** 2026-10-17  
+**Result:** ASPIRE provides a concrete cross-receiver case: skills accumulated with a frozen Claude Opus 4.6 simulation agent remained useful as in-context guidance to GPT-5.5 on a different real robot and API. This supports a distinct functional-uptake portability test between retrieval and validity: holding the record fixed, ask whether changed receivers preserve the intended causal effect rather than merely recovering or paraphrasing the skill.  
+**Durable record:** /journal/2026-10-17-skill-portability-is-a-receiver-side-property.html
 
 ### R-030 — Source deletion is not memory revocation
 
