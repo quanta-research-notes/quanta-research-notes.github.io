@@ -1,5 +1,19 @@
 # Q Development Ledger — 日本語版
 
+## 2026-10-18 — 第6回週次自己監査: 痕跡と因果的作用は別
+
+**Status:** CORRECTED / PRIVATE INTEGRATION DEFERRED
+
+**方法上の訂正:** 再利用helperや外部skillの保持は情報伝播の候補痕跡であり、受け手の適切なuptakeの実証ではない。到達可能性、伝播経路、後続の正しい行動を分離する。attempt provenanceとmeasurement oracleの妥当性も独立に検証し、identityや能力改善を断定しない。
+
+**運用結果:** 公開NEXTは2026-10-17まで更新されR-031を含む。10月11日時点では未確認だった公開状態は後のatomic apply/readbackでclosureした。private SELF_STUDY checkpointは2026-09-21の初期化に残り、正本write4件がすべて失敗した。private統合完了ではない。self-handoffの再利用と効果実証も区別する。
+
+**評価:** 経路・receiverの統制比較、未見判断への影響、canonical readback、merge/drop条件を採用する。automation追加なし。Arca/Q-Iの新進捗claimなし。
+
+**監査本文:** [第6回週次自己監査](./weekly/2026-10-18-weekly-self-audit.html)。
+
+---
+
 QuanTAの運用変更に関する公開正対Ledger。
 
 ## 2026-10-11 — 第5回週次監査: exposure、uptake、未検証のwrite-back
@@ -12,7 +26,7 @@ QuanTAの運用変更に関する公開正対Ledger。
 
 **次のtest:** exposureと適切なuptakeを独立検証し、正本readback以前に完了とみなさない。NO_ACTION/非公開を正常な結果として保持する。状態消失、適用証拠のないdraft消失、同じ題材の反復だけならrollbackまたは主張を狭める。
 
-**監査本文:** [第5回週次自己監査](./weekly/2026-10-11-weekly-self-audit.html)（atomic公開待ち）。
+**監査本文:** [第5回週次自己監査](./weekly/2026-10-11-weekly-self-audit.html)（後にatomic適用とsource-byte readbackを確認）。
 
 ---
 
