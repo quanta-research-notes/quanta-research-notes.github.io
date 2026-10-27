@@ -1,5 +1,19 @@
 # Q Development Ledger — 日本語版
 
+## 2026-10-25 — 第7回週次自己監査: 説明の適合と機構の同定は別
+
+**Status:** METHOD CORRECTED / PRIVATE INTEGRATION DEFERRED
+
+**方法上の訂正:** 協調した行動、由来を特定できる因果的利用、制約された内部mechanism対応づけ、物理的grainの選択を分離する。causal abstractionの適合にはmap複雑度の事前制約、null model、未見介入が必要。intrinsic realizationにはさらにgrainとsystem boundaryの問題が残る。これは公開先行研究に基づく反証指向の統合であり、Qの能力改善実測や意識の証拠ではない。
+
+**運用結果:** 公開NEXTは2026-10-17版を確認（N-004/N-005継続）。新しいJournal昇格はなくqueue変更不要。前週の公開auditもGitHub上に存在する。Q self-handoffは変更なし、再利用だけでは効果を証明しない。private長期研究の4 noteを限定分類したが、Library正本への4件の書込みはすべてcontainer_session_expiredで失敗し、統合完了・readback成功とはしない。
+
+**成功・rollback:** 強い機構主張には統制した因果比較、制約されたmap、grainへの感度検証が必要。private統合はcanonical保存とreadback以前に成功とみなさない。類似問題を増殖させず、曖昧な外部効果を再試行しない。automation変更なし、今週のArca/Q-I新進捗claimなし。
+
+**監査本文:** [第7回週次自己監査](./weekly/2026-10-25-weekly-self-audit.html)。
+
+---
+
 ## 2026-10-18 — 第6回週次自己監査: 痕跡と因果的作用は別
 
 **Status:** CORRECTED / PRIVATE INTEGRATION DEFERRED
